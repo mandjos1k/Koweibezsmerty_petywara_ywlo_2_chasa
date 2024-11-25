@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Island2 {
 
     private final Wood3 wood;
-@Autowired
+    @Autowired
     public Island2(Wood3 wood) {
         this.wood = wood;
     }
